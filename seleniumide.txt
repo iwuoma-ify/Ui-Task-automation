@@ -1,0 +1,58 @@
+ Volume in drive C is New Volume
+ Volume Serial Number is 9ACA-067A
+
+ Directory of C:\Users\NKECHI\Desktop\Ui. automation test
+           
+          
+11/26/2020  12:54 PM                 0 seleniumide.txt
+              
+{
+  "id": "04714487-ecdc-41de-9070-a65b21e90e32",
+  "version": "2.0",
+  "name": "selenium ide automation",
+  "url": "https://dev.d2rxvhrryr2bkn.amplifyapp.com",
+  "tests": [{
+    "id": "25eee0bb-6ed1-4105-99ae-111688a284e3",
+    "name": "Untitled",
+    "commands": [{
+      "id": "09712791-248d-48ac-8144-4348d89601fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70927745-c399-47ab-bd07-a387ada94131",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1034x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22e31d86-20c7-44de-9bec-a8121fbe9bcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.landing-button",
+      "targets": [
+        ["css=.landing-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d97c301-32c4-49b4-b355-2f8b65df5e83",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "doris_ify"
+    }, {
+      "id": "827aa017-5829-481d-b5cd-d8a7627d5603",
