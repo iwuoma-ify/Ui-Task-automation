@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/NKECHI/Documents/NKECHI/automationTest/selenium_webdriver_automation/page_object_model/KONGA_POM">
+        <classes>
+            <class name="HomePageTest.LoginTests">
+                <methods>
+                    <include name="successfullyLoadURL"/>
+                    <include name="testAPageTitle"/>
+                    <include name="CheckURL"/>
+                    <include name="Login"/>
+                </methods>
+            </class>
+            <class name="HomePageTest.DashboardTests">
+                <methods>
+                    <include name="AssertURL"/>
+                    <include name="assertName"/>
+                </methods>
+            </class>
+            <class name="HomePageTest.CategoryTest">
+                <methods>
+                    <include name="checkCurrentURL"/>
+                    <include name="CategoryTest1"/>
+                    <include name="CategoryTest2"/>
+                    <include name="CategoryTest3"/>
+                    <include name="CategoryTest4"/>
+                    <include name="CategoryTest5"/>
+                    <include name="CheckingLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
